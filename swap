@@ -1,0 +1,26 @@
+#include <iostream>
+using namespace std;
+void swap()
+{
+    cout<<"this is my swap";
+}
+int main()
+{
+    int firstNum , secondNum;
+    cout<<"Enter value for First Number:   ";
+    cin>>firstNum;
+    cout<<"Enter value for Second Number:  ";
+    cin>>secondNum;
+    cout<<"\n\n";
+    cout<<"Values BEFORE Calling Built in Swap Function"<<endl<<endl;
+    cout<<"\tFirst  Number = "<<firstNum<<endl;
+    cout<<"\tSecond Number = "<<secondNum<<endl;
+     cout<<"\n\n";
+ 
+    std::swap( firstNum , secondNum );
+ 
+    cout<<"Values AFTER Calling Bulit in  Swap Function"<<endl<<endl;
+    cout<<"\tFirst Number = "<<firstNum<<endl;
+    cout<<"\tSecond Number = "<<secondNum<<endl;
+    return 0;
+}         
