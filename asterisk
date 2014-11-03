@@ -1,0 +1,22 @@
+
+***** 
+***** 
+***** 
+***** 
+***** 
+
+Solution:
+#include <cstdlib> 
+#include <iostream> 
+using namespace std; 
+  
+int main(int argc, char *argv[]) 
+{ 
+    cout<<"*****\n"; 
+    cout<<"*****\n"; 
+    cout<<"*****\n"; 
+    cout<<"*****\n"; 
+    cout<<"*****\n"; 
+    system("PAUSE"); 
+    return EXIT_SUCCESS; 
+}
