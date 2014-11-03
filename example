@@ -1,0 +1,26 @@
+
+#include<iostream>
+#include<conio.h>
+
+using namespace std;
+
+int main()
+{
+
+     // Variable Declaration
+     int a;
+
+     // Get Input Value
+     cout<<"Enter the Number :";
+     cin>>a;
+
+     //for Loop Block
+     for (int counter = 1; counter <= a; counter++)
+     {
+         cout<<"Execute "<<counter<<" time"<<endl;
+     }
+
+     // Wait For Output Screen
+     getch();
+     return 0;
+ }
