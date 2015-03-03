@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+
+class HumanBeing {
+  
+  public :
+          void dispaly(){
+
+    cout<<"hi";
+}
+};
+
+int main() {
+	HumanBeing object1;
+    object1.dispaly();
+	return 0;
+}
