@@ -1,0 +1,27 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+
+class HumanBeing {
+ public :
+   string name;
+  
+   void display(){
+
+   cout<<"Hi My Name is"<<name<<endl;
+}
+};
+int main() {
+	
+   HumanBeing object1;
+   HumanBeing object2;
+   
+   object1.name = "raju";
+   object1.display();
+
+   object2.name = "rinu";
+   object2.display();
+
+	return 0;
+}
